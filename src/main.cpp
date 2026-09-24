@@ -2,7 +2,7 @@
 #include "report.h"
 
 int main() {
-    std::cout << "Oregon Trail Supply Check" << std::endl;
+    std::cout << "Oregon Trail Supply Check _ Amin" << std::endl;
     std::cout << "Week 6" << std::endl;
 
     int party = 4;
