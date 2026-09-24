@@ -19,3 +19,4 @@ Run with:
 Ibrahim Gonzalez
 Amin Rezaei 
 <!-- Each member adds their name below during the Part 1 README relay. -->
+My unfinished local thought
