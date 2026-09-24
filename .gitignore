@@ -1,2 +1,3 @@
 /git_lab
 *.o
+secrets.txt
