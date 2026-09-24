@@ -12,3 +12,6 @@ Bad commit already pushed -> git revert HEAD -> creates a new commit that safely
 
 ## Card 5
 Accidentally lost commits via hard reset -> git reflog & git reset --hard HEAD@{1} -> restores HEAD to a lost commit using Git's reference log
+
+## Card 8
+Committed directly to main by mistake -> git branch feature/oops && git reset --hard origin/main -> moves the accidental commit to a new branch and resets main to match origin
