@@ -3,7 +3,7 @@
 #include "supplies.h"
 
 void print_report(int party, int days) {
-    int food = food_needed(party, days);
+    int food = food_needed(party, days, 3);
 
     std::cout << "=============================" << std::endl;
     std::cout << "Party: " << party << " people" << std::endl;
