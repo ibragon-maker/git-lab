@@ -3,7 +3,7 @@
 
 int main() {
     std::cout << "Oregon Trail Supply Check _ AMIN" << std::endl;
-    std::cout << "Week 6" << std::endl;
+    std::cout << "Week 7 " << std::endl;
 
     int party = 4;
     int days = 7;
