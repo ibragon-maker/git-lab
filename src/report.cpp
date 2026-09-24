@@ -2,7 +2,7 @@
 #include "report.h"
 #include "supplies.h"
 
-void print_report(int party, int days) {
+void print_report(int party, int days, bool show_summary) {
     int food = food_needed(party, days, 3);
 
     std::cout << "=============================" << std::endl;

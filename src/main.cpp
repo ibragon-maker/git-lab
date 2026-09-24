@@ -9,7 +9,7 @@ int main() {
 
     int party = 4;
     int days = 7;
-    print_report(party, days);
+    print_report(party, days, true);
 
     return 0;
 }
