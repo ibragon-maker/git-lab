@@ -16,9 +16,15 @@ Run with:
 ./git_lab
 ```
 
+project blurb
+
 ## Group Members
 
 Ibrahim Gonzalez
 Amin Rezaei 
 <!-- Each member adds their name below during the Part 1 README relay. -->
+<<<<<<< Updated upstream
 My unfinished local thought
+=======
+
+>>>>>>> Stashed changes
