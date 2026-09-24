@@ -12,3 +12,5 @@ Accidentally wiped commits with hard reset → git reflog + git reset --hard HEA
 Made a commit while in a Detached HEAD state → git switch -c keep <hash> → rescues an orphaned commit by locking a new branch onto its hash before it gets garbage collected
 ## Card 7
 Blocked pull due to uncommitted local changes → git stash + git pull + git stash pop → stashing temporarily saves local work so you can pull safely without losing progress1
+## Card 8
+Accidentally committed straight to main → git switch -c branch + git switch main + git reset --hard origin/main → branches save the commit first, then hard reset cleans main back to its pristine remote state
