@@ -8,3 +8,5 @@ Committed sensitive data by mistake → git reset [--soft | default | --hard] HE
 Pushed a broken commit that breaks the build → git revert HEAD → creates a new commit that safely reverses the broken changes without rewriting shared history
 ## Card 5
 Accidentally wiped commits with hard reset → git reflog + git reset --hard HEAD@{n} → reflog tracks every HEAD movement, letting you travel back in time to recover lost commits
+## Card 6
+Made a commit while in a Detached HEAD state → git switch -c keep <hash> → rescues an orphaned commit by locking a new branch onto its hash before it gets garbage collected
