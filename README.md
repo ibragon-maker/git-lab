@@ -17,4 +17,5 @@ Run with:
 ## Group Members
 
 Ibrahim Gonzalez
+Amin Rezaei 
 <!-- Each member adds their name below during the Part 1 README relay. -->
