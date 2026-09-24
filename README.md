@@ -1,3 +1,5 @@
+project blurb
+
 # Git Lab
 
 A small C++ project for practicing branching, merging, and conflict resolution.
