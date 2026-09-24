@@ -4,3 +4,6 @@ Commit had a bad message -> git commit --amend -> replaces the last commit inste
 
 ## Card 2
 Accidentally staged a file -> git restore --staged -> removes the file from the staging area without deleting local work
+
+## Card 3
+Committed sensitive data -> git reset --soft/mixed/hard -> soft keeps staged, default (mixed) keeps unstaged, hard discards all changes
