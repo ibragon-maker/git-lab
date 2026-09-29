@@ -1,0 +1,9 @@
+Group repo: https://github.com/ibragon-maker/git-lab
+Rehearsal repo: https://github.com/ibragon-maker/hw1-rehearsal
+
+Q1 (Part 3): The HEAD side was my local code and the incoming side was the remote changes. I ended up keeping both parts so we didn't lose any of the work when merging.
+
+Q2 (Part 4): Git only tracks lines of text and doesn't actually compile anything, so it can't tell if a merge broke C++ code. The best way to catch errors early is just running make and building it locally right after you pull.
+
+Q3 (Part 5): If a commit is already pushed, git revert is safer because it adds a new commit that undoes the bad code without changing history. Doing a hard reset and force pushing rewrites history, which breaks everyone else's local repo.
+
