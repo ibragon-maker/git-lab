@@ -8,3 +8,6 @@ Wrong file was staged -> git restore --staged accidental.txt -> removes it from 
 
 ## Card 3
 Secret was committed locally -> git rm --cached and git commit --amend -> removes the secret from the commit before it is pushed
+
+## Card 4
+Bad commit was already pushed -> git revert HEAD -> safely creates a new commit that undoes the pushed change without rewriting shared history
