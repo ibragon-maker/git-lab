@@ -14,3 +14,6 @@ Bad commit was already pushed -> git revert HEAD -> safely creates a new commit 
 
 ## Card 5
 Commit disappeared after reset -> git reflog and git reset --hard HEAD@{1} -> reflog finds the previous HEAD and restores the lost commit
+
+## Card 6
+HEAD became detached after checking out a commit -> git switch cards-3 -> returns HEAD to my branch without losing the branch history
