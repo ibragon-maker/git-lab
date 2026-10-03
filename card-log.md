@@ -11,3 +11,6 @@ Secret was committed locally -> git rm --cached and git commit --amend -> remove
 
 ## Card 4
 Bad commit was already pushed -> git revert HEAD -> safely creates a new commit that undoes the pushed change without rewriting shared history
+
+## Card 5
+Commit disappeared after reset -> git reflog and git reset --hard HEAD@{1} -> reflog finds the previous HEAD and restores the lost commit
