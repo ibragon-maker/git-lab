@@ -17,3 +17,6 @@ Commit disappeared after reset -> git reflog and git reset --hard HEAD@{1} -> re
 
 ## Card 6
 HEAD became detached after checking out a commit -> git switch cards-3 -> returns HEAD to my branch without losing the branch history
+
+## Card 7
+Local changes blocked a pull -> git stash, git pull, git stash pop -> temporarily stores local work so the branch can be updated safely
