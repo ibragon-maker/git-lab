@@ -20,3 +20,6 @@ HEAD became detached after checking out a commit -> git switch cards-3 -> return
 
 ## Card 7
 Local changes blocked a pull -> git stash, git pull, git stash pop -> temporarily stores local work so the branch can be updated safely
+
+## Card 8
+Commit was accidentally made on main -> git cherry-pick main and git reset --hard origin/main -> moves the commit to my card branch and restores main to the remote state
